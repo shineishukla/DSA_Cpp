@@ -1,0 +1,36 @@
+Definition:
+A storage that is used for keeping and organizing data is called a data structure.
+It is a method of setting up data on a computer to make it easily accessible and up to date.
+
+
+
+Classification:-
+
+                                     Data structure
+                ___________________________|____________________________
+            Linear DS                                             Non-Linear DS
+     ___________|___________                                 _________|_________
+ Static DS               Dynamic DS                         Tree              Graph
+    |             _________________|_________________
+  Array           |                |                |    
+                Queue             Stack          Linked List
+
+
+
+Importance of Data Structures:-
+- It is simple to modify data structures. 
+- It takes less time. 
+- The large database can be accessed easily.
+- Saves memory for storage. 
+
+Linear Data Structure- 
+A linear data structure is one in which the data elements are ordered sequentially or linearly,
+with each element connected to its immediate neighbour.
+In this, single level is included.
+
+
+Non-Linear Data Structure-
+A non-linear data structure is the one in which data elements are connected in a hierarchial manner.
+In this, multiple levels are included.
+
+
