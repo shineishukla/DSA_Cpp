@@ -1,0 +1,27 @@
+Here's a brief explanation of some common sorting algorithms:
+
+1. Bubble Sort:
+   - Compares adjacent elements and swaps them if they are in the wrong order.
+   - Repeats this process until the entire array is sorted.
+   - It has a time complexity of O(n^2) in the worst and average cases.
+
+2. Selection Sort:
+   - Selects the minimum element from the unsorted part of the array and places it at the beginning.
+   - Repeats this process for the remaining unsorted part until the array is sorted.
+   - It has a time complexity of O(n^2) in all cases.
+
+3. Insertion Sort:
+   - Builds the final sorted array one element at a time.
+   - Iterates over the array and for each element, moves it to its correct position in the sorted part of the array.
+   - It has a time complexity of O(n^2) in the worst and average cases, but performs well on small or nearly sorted arrays.
+
+4. Merge Sort:
+   - Divides the array into two halves, recursively sorts each half, and then merges the two sorted halves.
+   - It uses the divide-and-conquer strategy and has a time complexity of O(n log n) in all cases.
+   - It is stable and guarantees a consistent performance regardless of the input.
+
+5. Quick Sort:
+   - Selects a pivot element, partitions the array into two sub-arrays around the pivot, and recursively sorts the sub-arrays.
+   - It uses the divide-and-conquer strategy and has an average time complexity of O(n log n).
+   - It can have a worst-case time complexity of O(n^2) but can be optimized to minimize this scenario.
+
