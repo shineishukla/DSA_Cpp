@@ -1,0 +1,30 @@
+Stack Data Structure
+
+It is a linear data structure in which elements are added and removed from one end called the "top" of the stack.
+The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+Operations:
+1. push(): Add an element to the top of a stack
+2. pop(): Remove an element from the top of a stack
+3. isEmpty(): Check if the stack is empty
+4. isFull(): Check if the stack is full
+5. peek(): Get the value of the top element without removing it
+6. size(): Get the number of elements in the stack
+
+
+Implementation of stacks:
+1. Using Arrays
+2. Using Linked List
+
+
+Applications of Stacks:
+1. Balancing of symbols
+2. Infix to Postfix /Prefix conversion
+3. Redo-undo features at many places like editors, photoshop.
+4. Forward and backward feature in web browsers
+5. Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+
+
+Time Complexities of operations on stack:
+push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+
