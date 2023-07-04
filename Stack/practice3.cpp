@@ -1,4 +1,4 @@
-// implementation of stack using linked list
+// implementation of stack using linked list usng external stack
 
 #include <iostream>
 using namespace std;
