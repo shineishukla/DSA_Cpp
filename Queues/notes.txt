@@ -1,0 +1,32 @@
+Queues Data Structures
+
+Queues are a type of container adaptors which operate in a first in first out (FIFO) type of arrangement.
+Elements are inserted at the back (end) and are deleted from the front. 
+
+
+Operations on Queue:
+1. Enqueue: Adds an item to the queue.
+2. Dequeue: Removes an item from the queue.
+3. Front: Get the front item from queue.
+4. Rear: Get the last item from queue.
+5. isEmpty: Checks if the queue is empty.
+6. isFull: Checks if the queue is full.
+
+
+Applications of Queue:
+1. CPU scheduling, Disk Scheduling.
+2. Buffering
+3. Event Handling
+4. Traffic management
+
+
+Types of Queue:
+1. Simple Queue- In a simple queue, insertion takes place at the rear and deletion occurs at the front.
+2. Circular Queue- In a circular queue, the last element points to the first element making a circular link.
+3. Priority Queue- In a priority queue, elements are inserted as per their priority.
+4. Double Ended Queue- In a double ended queue, insertion and deletion can be done from both the ends.
+
+
+Queue Implementation:
+1. Array
+2. Linked List
