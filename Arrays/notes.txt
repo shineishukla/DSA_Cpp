@@ -51,12 +51,12 @@ Ways to initialize an array:
 
 
 Operations:
-
-- Accessing an element by index: array[index]
-- Updating an element by index: array[index] = value
-- Finding the length of the array: array.length or array.size()
-- Traversing the array: iterating through each element using a loop
+- Accessing an element: accessing an element at a specified index
 - Sorting the elements: using sorting algorithms like quicksort or mergesort
+- Searching the elements: using searching algorithms like linear search or binary search
+- Inserting an element: inserting an element at the end of the array or at a specified index
+- Deleting an element: deleting an element from the end of the array or from a specified index
+ 
 
 
 1-D Array:
@@ -65,12 +65,13 @@ Operations:
 - Each element in the array is accessed using its index.
 - The index of the first element is 0, the second element is 1, and so on.
 
-
 Syntax of 1-D array declaration:
 datatype arrayName[size];
 
 Example:
 int[] arr = new int[5];
+
+
 
 2-D Array:
 
@@ -83,6 +84,9 @@ datatype[][] arrayName = new datatype[rows][columns];
 
 Example:
 int[][] arr = new int[3][4];
+
+
+
 
 Multi-dimensional Array:
 
@@ -98,6 +102,22 @@ Example:
 int[][][] arr = new int[3][4][2];
 
 
+
+Linear Search:
+- Linear search is a searching algorithm that searches for an element in an array by sequentially.
+- Linear search is also known as sequential search.
+- Linear search is a brute-force search algorithm.
+- Linear search has a time complexity of O(n), where n is the number of elements in the array.
+
+Binary Search:
+- Binary search is a searching algorithm that searches for an element in a sorted array by
+repeatedly dividing the search interval in half.
+- Binary search is also known as half-interval search or logarithmic search.
+- Binary search has a time complexity of O(log n), where n is the number of elements in the array.
+- Binary search can be implemented using both iterative and recursive approaches.
+
+
+
 Vectors:
 - A vector is a dynamic array that can grow or shrink in size.
 - It is similar to an array, except that it is resizable.
@@ -111,3 +131,5 @@ Vector<datatype> vectorName = new Vector<datatype>();
 
 Example:
 Vector<Integer> vector = new Vector<Integer>();
+
+

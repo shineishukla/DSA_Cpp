@@ -34,3 +34,6 @@ A non-linear data structure is the one in which data elements are connected in a
 In this, multiple levels are included.
 
 
+Time Complexity- study of efficiency of an algorithm.
+Space Complexity- study of how much memory is required by an algorithm.
+
