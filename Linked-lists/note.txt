@@ -1,0 +1,35 @@
+Linked Lists Data Structures
+
+A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node in a linked 
+list contains two parts: data (the value or information to be stored) and a reference (or pointer) to the next 
+node in the sequence.
+
+
+Advantages of Linked Lists:
+- Dynamic Size: Linked lists can grow or shrink as needed, making them useful for situations where the size is 
+unknown or can change.
+- Efficient Insertion and Deletion: Inserting or deleting elements in a linked list is efficient when you have a 
+reference to the node, as it involves updating pointers.
+
+Disadvantages of Linked Lists:
+- Lack of Random Access: Unlike arrays, linked lists do not offer constant-time access to elements. To access an 
+element, you must traverse the list from the beginning.
+- Extra Memory Usage: Linked lists require additional memory to store the pointers between nodes, which can impact 
+memory efficiency.
+
+
+Linked lists have dynamic size and efficient insertion/deletion at any position, but they lack direct access to 
+elements (random access) like arrays.
+
+
+Types of Linked Lists:
+1. Singly LL- every node points to its successor node.
+2. Doubly LL- every node is connected to its pointers and next node.
+3. Circular LL- the last node will point to head node.
+
+Basic operations:
+1. Insertion 
+2. Deletion
+3. Traversal
+4. Search
+5. Updation
