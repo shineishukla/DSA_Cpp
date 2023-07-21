@@ -1,0 +1,24 @@
+C++ STL( Standard Template Library ) 
+It is a powerful set of C++ template classes to provide general-purpose classes and functions with templates that 
+implement many popular and commonly used algorithms and data structures like vectors, lists, queues, and stacks.
+
+It is a collection of algorithm's, data structures and other components. 
+
+4 Components:
+1. Algorithms
+2. Containers
+3. Functions
+4. Iterators
+
+Advantages of C++ STL:
+1. Saves time and space
+2. Reusable code
+3. Reliable code as it is thoroughly tested
+4. Faster execution due to optimized code
+
+Disadvantages of C++ STL:
+1. Difficult to learn
+2. Difficult to debug
+3. Difficult to understand
+4. Difficult to modify
+
