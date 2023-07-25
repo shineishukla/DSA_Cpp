@@ -132,4 +132,20 @@ Vector<datatype> vectorName = new Vector<datatype>();
 Example:
 Vector<Integer> vector = new Vector<Integer>();
 
-
+Functions in vector:
+- begin()- Returns an iterator pointing to the first element in the vector.
+- end()- Returns an iterator pointing to the theoretical element that follows the last element in the vector.
+- size()- Returns the number of elements in the vector.
+- capacity()- Returns the size of the storage space currently allocated to the vector expressed as number of elements.
+- max_size()- Returns the maximum number of elements that the vector can hold.
+- empty()- Returns whether the vector is empty.
+- push_back()- Adds a new element at the end of the vector, after its current last element.
+- pop_back()- Removes the last element in the vector, effectively reducing the container size by one.
+- insert()- Inserts new elements into the vector at a specified position.
+- erase()- Removes elements from the vector at a specified position or range.
+- swap()- Swaps the contents of one vector with another vector of the same type. Sizes may differ.
+- clear()- Removes all the elements from the vector, leaving the container with a size of 0.
+- emplace()- Inserts a new element into the vector directly before a specified position.
+- emplace_back()- Adds a new element at the end of the vector, after its current last element.
+- front()- Returns a reference to the first element in the vector.
+- back()- Returns a reference to the last element in the vector.

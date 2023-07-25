@@ -22,3 +22,13 @@ Disadvantages of C++ STL:
 3. Difficult to understand
 4. Difficult to modify
 
+#include <bits/stdc++.h> : This header file includes all the standard library. 
+
+
+Containers:
+1. Sequence Containers: vector, list, deque, arrays
+2. Associative Containers: set, multiset, map, multimap 
+3. Derived Containers: stack, queue, priority_queue
+
+
+
